@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'DroidSerifRegular';
+  src: url('DroidSerif.eot');
+  font-style: normal;
+  font-weight: normal;
+ }
+ body {
+  font-family: 'DroidSerifRegular', Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+.element {
+  color: #c44743;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.element:hover {
+  background-color: rgba(196, 71, 67, 0.10);
+  color: #d56d68;
+}
+s
