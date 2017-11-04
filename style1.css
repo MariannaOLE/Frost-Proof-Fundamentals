@@ -14,3 +14,15 @@ h1 {
   font-size: 22px;
   text-align: center;
 } 
+#slogan {
+  text-align: center;
+  font-style: italic; 
+}
+.content.home {
+  border: 0;
+}
+header {
+   background: #e0e2e6;
+}
+
+
