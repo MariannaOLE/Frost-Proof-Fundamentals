@@ -37,5 +37,70 @@ aside {
   margin-bottom: 10px;
   margin-left: 10px;
 }
+nav li {
+  float: left;
+}
+aside {
+  float: right;
+  width: 120px;
+}
+article {
+  float: left;
+  width: 120px;
+}
+.clear {
+  clear: both;
+}
+  
+/* clearfix */
+  
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
 
+p {
+  font-style: normal;
+}
+aside p {
+  font-style: italic;
+}
+aside p a {
+  font-style: normal;
+}
+.main li a {
+  color: #7ab2c1;
+}
+.active a {
+  color: #826c55 !important;
+}
+.primary p {
+  font-size: 12px;
+}
+.copyright {
+  font-size: 10px !important;
+}
+
+.main .active a {
+  color: #826c55;
+}
+.primary p {
+  font-size: 12px;
+}
+.primary .copyright {
+  font-size: 10px;
+}
+.home a {
+  color: #c09e79;
+} 
+article .button {
+  color: #fff;
+}
 
