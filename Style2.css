@@ -7,4 +7,15 @@ footer figure {
   padding: 15px;
   width: 88px;
 }
+.red-text {
+  color: red;
+}
 
+h2 {
+  font-family: Lobster;
+}
+
+p {
+  font-size: 16px;
+  font-family: monospace;
+}
